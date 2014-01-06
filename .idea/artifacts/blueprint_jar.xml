@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="blueprint.jar">
+    <output-path>$USER_HOME$/Downloads/craftbukkit/plugins</output-path>
+    <root id="archive" name="blueprint.jar">
+      <element id="module-output" name="blueprint" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+    </root>
+  </artifact>
+</component>
