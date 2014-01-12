@@ -1,3 +1,21 @@
 name: blueprint
 main: net.riaku.blueprint
 version: 1.0
+commands:
+   blueprints:
+      description: lists a player's current blueprints
+      usage: /<command> [player]
+      permission: blueprint.list
+      permission-message: you do not have access to blueprint.list
+   addblueprint:
+      description: Adds a blueprint to a player
+      usage: /<command> [player] [ID]
+      permission: blueprint.list
+      permission-message: you do not have access to blueprint.add
+      aliases: [addbp,bpadd,addblueprints]
+   removeblueprint:
+      description: Removes a blueprint from a player
+      usage: /<command> [player] [ID]
+      permission: blueprint.list
+      permission-message: you do not have access to blueprint.remove
+      aliases: [remblueprint,rembp,removebp,bpremove,removeblueprints]
